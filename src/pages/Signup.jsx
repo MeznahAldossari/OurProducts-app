@@ -45,7 +45,7 @@ function Signup() {
         
       }
       if(!passwordTest.test(user.password)){
-        errors.password_Error = 'يجب ان تحتوي كلمة المرور على ثمان خانات على الاقل ويجب ان تحتوي على حرف صغير وحرف كبير ورقم واحد على الأقل'
+        errors.password_Error = 'يجب ان تحتوي كلمة المرور على ثمان خانات على الاقل ويجب ان تحتوي على حرف صغير وحرف كبير ورقم واحد ورمز'
         
       }
       if(usernameTest.test(user.userName) && emailTest.test(user.email) && passwordTest.test(user.password)){

@@ -29,7 +29,6 @@ function ProductsDetails() {
     const getProduct_details = ()=>{
         
        axios.get(`https://665736969f970b3b36c8658a.mockapi.io/form/${id}`).then(response =>{
-            console.log("testing")
             setProduct(response.data)
             setLoader(true)
         })
