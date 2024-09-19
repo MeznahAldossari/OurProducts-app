@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/onlineStore.png'
+import logo from '../assets/myLogo.png'
 import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
