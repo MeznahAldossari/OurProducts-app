@@ -171,8 +171,8 @@ function Cart() {
                                 <option value="4">4</option>
                             </select>
                         </td>
-                        <td className='border border-[#dedede] '>
-                                <button className="btn bg-white border-none" onClick={()=> deleteByID(item.id)}><img src={deleteIcon}  className='lg:w-6 w-4 cursor-pointer'></img></button> 
+                        <td className='border text-center border-[#dedede] '>
+                                <button className="btn m-auto bg-white border-none" onClick={()=> deleteByID(item.id)}><img src={deleteIcon}  className='lg:w-6 w-4 cursor-pointer'></img></button> 
                                  <dialog id="my_modal_1" className="modal">
                                 <div className="modal-box">
                                     
