@@ -265,9 +265,10 @@ function ProductsDetails() {
             
         </main>
     ):
-    <article className='flex h-screen justify-center items-center'>
-      <img src={loaderIcon} className='lg:w-[6vw] max-sm:w-3'></img>
-    </ article>}
+    <article className='flex h-screen max-sm:items-center justify-center items-center'>
+
+        <img src={loaderIcon} className='lg:w-[4vw] max-md:w-4 max-sm:w-6'></img>
+      </ article>}
     
    </> 
   )
